@@ -16,19 +16,21 @@
   
   <main>
 
-    <div class="title-page">
+    <div id="title-page">
       <h1 id="headline">Sua próxima viagem:</h1>
       <h1>Conheça Busan</h1>
     </div>
     
-    <img id="main-image" src="/assets/Image_01.png" alt="vista panorâmica da cidade de Busan com prédios, água do mar e uma ponte">
-    <legend>
-      Busan, a estrela em ascensão da Coreia do Sul, oferece de tudo, desde churrascarias de primeira linha até tradicionais barracas de comida de rua. Aqui, exploramos a segunda cidade da Coreia do Sul e descobrimos as suas ofertas culinárias.
-    </legend>
+    <div id="main-image">
+      <img  src="/assets/Image_01.png" alt="vista panorâmica da cidade de Busan com prédios, água do mar e uma ponte">
+      <legend>
+        Busan, a estrela em ascensão da Coreia do Sul, oferece de tudo, desde churrascarias de primeira linha até tradicionais barracas de comida de rua. Aqui, exploramos a segunda cidade da Coreia do Sul e descobrimos as suas ofertas culinárias.
+      </legend>
+    </div>
 
     <div class="line"></div>
       
-    <div class="content-list">
+    <div id="content-list">
 
       <div id="title-list">
         <h2 id="headline">Para os amantes de história</h2>
@@ -36,62 +38,64 @@
         <p>As atrações de Busan vão desde templos budistas centenários que pontilham as montanhas e o litoral da cidade até praias imaculadas com águas cristalinas. Esta cidade litorânea tem muitas coisas para fazer o ano todo - as famílias podem passar o tempo em um aquário à beira-mar, os compradores podem explorar bairros vibrantes e os amantes da natureza podem desfrutar de longas caminhadas até mirantes panorâmicos. Os santuários budistas que pontilham a costa e as montanhas de Busan têm uma arquitetura impressionante que irá encantar os fotógrafos.</p>
       </div>
 
-      <ul>
+      <ul class="list">
+        
         <li class="card">
           <img src="/assets/Image_02.png" alt="foto do Templo Haedong Yonggungsa ">
-          <div class="content-card">
-            <h3>1. Templo Haedong Yonggungsa </h3>
-            <p>
-              O Templo Haedong Yonggungsa é um templo budista localizado no extremo nordeste de Busan. Construído em 1376, é um dos poucos templos na Coreia construídos à beira-mar – você pode desfrutar de vistas do Mar do Leste de um lado e de belas montanhas do outro. 
+          <h3>1. Templo Haedong Yonggungsa </h3>
+          <p>
+            O Templo Haedong Yonggungsa é um templo budista localizado no extremo nordeste de Busan. Construído em 1376, é um dos poucos templos na Coreia construídos à beira-mar – você pode desfrutar de vistas do Mar do Leste de um lado e de belas montanhas do outro. 
+            <br>
+            <br>
+            <b>
+              Bom para
               <br>
-              <br>
-              <span>Bom para</span>
-              <ul>
-                <li id="accent-blue"><span>História</span></li>
-              </ul>
-            </p>
-          </div>
-            
-  
+              ・<span id="accent-blue">História</span>
+            </b>
+          </p>    
         </li>
-  
+
         <li class="card">
-          <img src="/assets/Image_03.png" alt="foto do Templo Haedong Yonggungsa ">
+          <img src="/assets/Image_03.png" alt="foto do Templo Beomeo-sa">
           <h3>2. Templo Beomeo-sa</h3>
           <p>
-            O Templo Beomeo-sa é um dos maiores santuários da Coreia do Sul. Ele está localizado no alto da borda leste da montanha Geumjeongsa e fica distante da agitação da cidade. O Daeungjeon Hall do templo é um exemplo bem preservado da arquitetura da Dinastia Joseon.
+            O Templo Beomeo-sa é um dos maiores santuários da Coreia do Sul. Ele está localizado no alto da borda leste da montanha Geumjeongsa e fica distante da agitação da cidade. O Daeungjeon Hall do templo é um exemplo bem preservado da arquitetura da Dinastia Joseon. 
             <br>
             <br>
-            <span>Bom para</span>
-              <ul>
-                <li id="accent-blue">História</li>
-              </ul>
-          </p>
-        </li>
-  
+            <b>
+              Bom para
+              <br>
+              ・<span id="accent-blue">História</span>
+            </b>
+          </p>    
+        </li>        
+
         <li class="card">
-          <img src="/assets/Image_04.png" alt="foto do Templo Haedong Yonggungsa ">
-          <h3>3. Parque Yongdusan</h3>
+          <img src="/assets/Image_04.png" alt="foto do Parque Yongdusan">
+          <h3>3. Parque Yongdusan </h3>
           <p>
             O Parque Yongdusan, localizado no centro de Busan, abriga alguns dos monumentos mais importantes da cidade. Você pode ver vistas espetaculares do topo da Torre Busan, de 120 metros de altura. O parque tem 2 museus – confira os instrumentos musicais tradicionais no Museum of World Folk Instruments e mais de 80 veleiros coreanos no Exhibition Hall of World Model Boats.
             <br>
             <br>
-            <span>Bom para</span>
-              <ul>
-                <li id="accent-purple">Casais</li>
-                <li id="accent-pink">Famílias</li>
-                <li id="accent-orange">Orçamento</li>
-              </ul>
-          </p>  
+            <b>
+              Bom para
+              <br>
+              ・<span id="accent-purple">Casais</span>
+              <br>
+              ・<span id="accent-pink">Famílias</span>
+              <br>
+              ・<span id="accent-orange">Orçamento</span>
+            </b>
+          </p>    
         </li>
-      
+  
       </ul>     
         
     </div>
     
     <div class="line"></div>
     
-    <p>As melhores coisas para fazer em Busan mostram a reputação da cidade como um importante porto marítimo na Ásia. Frequentemente vista como a essência da Coreia do Sul, você experimentará uma atmosfera única em termos de diversidade étnica e cultural, já que a cidade recebe um público cosmopolita o ano todo.</p>
+    <p id="description" >As melhores coisas para fazer em Busan mostram a reputação da cidade como um importante porto marítimo na Ásia. Frequentemente vista como a essência da Coreia do Sul, você experimentará uma atmosfera única em termos de diversidade étnica e cultural, já que a cidade recebe um público cosmopolita o ano todo.</p>
     
   </main>
 
